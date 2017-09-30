@@ -1,0 +1,12 @@
+header {
+  display: flex;
+}
+
+nav {
+  display: flex;
+  text-decoration: underline;
+}
+
+.logo {
+  display:flex;
+}
