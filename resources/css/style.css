@@ -1,10 +1,17 @@
 header {
   display: flex;
+  font-family: Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 nav {
   display: flex;
   text-decoration: underline;
+}
+
+span {
+  display:inline-block;
 }
 
 .logo {
