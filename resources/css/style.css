@@ -10,11 +10,15 @@ nav {
   text-decoration: underline;
 }
 
-span {
+nav span {
   display:inline-block;
+  padding: 20px;
 }
 
 .logo {
   display:flex;
+}
+
+.logo span {
   color: MediumAquamarine;
 }
