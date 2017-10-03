@@ -15,9 +15,12 @@ nav span {
   padding: 20px;
 }
 
+div {
+  border: 1px solid black;
+}
+
 .logo {
   display:flex;
-  border: solid 1px;
 }
 
 .logo span {
@@ -25,24 +28,20 @@ nav span {
 }
 
 .content {
-  border: solid 1px;
   display: flex;
 }
 
 .column.large {
-  border: solid 1px;
   display: flex;
   width: 630px;
 }
 
 .column.medium {
-  border: solid 1px;
   display: flex;
   width: 300px;
 }
 
 .column.small {
-  border: solid 1px;
   display: flex;
   width: 240px;
 }
@@ -52,37 +51,34 @@ nav span {
 }
 
 .image-content {
-  border: solid 1px;
+  display: flex;
+}
+
+.lead-story .image-content {
+  background-image: url("../images/story-main.png");
+}
+
+.fall-cancelled.image-content {
+  background-image: url("../images/fall-story.png");
+}
+
+.pop-culture.image-content {
+  background-image: url("../images/cameraman.png");
+}
+
+.cat-ceo.image-content {
+  background-image: url("../images/cat-story.png");
 }
 
 .narrative {
-  border: solid 1px;
+  font-size: 17px;
+  font-family: Georgia, sans-serif;
+  color: black;
 }
 
 .text-content {
-  border: solid 1px;
-}
-
-.stories {
-  border: solid 1px;
-}
-
-.story {
-  border: solid 1px;
-}
-
-.fall-cancelled {
-  border: solid 1px;
-}
-
-.cat-ceo {
-  border: solid 1px;
-}
-
-.cookie {
-  border: solid 1px;
-}
-
-.news-bites {
-  border: solid 1px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Georgia, sans-serif;
+  color: white;
 }
