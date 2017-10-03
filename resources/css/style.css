@@ -17,8 +17,72 @@ nav span {
 
 .logo {
   display:flex;
+  border: solid 1px;
 }
 
 .logo span {
   color: MediumAquamarine;
+}
+
+.content {
+  border: solid 1px;
+  display: flex;
+}
+
+.column.large {
+  border: solid 1px;
+  display: flex;
+  width: 630px;
+}
+
+.column.medium {
+  border: solid 1px;
+  display: flex;
+  width: 300px;
+}
+
+.column.small {
+  border: solid 1px;
+  display: flex;
+  width: 240px;
+}
+
+.lead-story {
+  border: solid 1px;
+}
+
+.image-content {
+  border: solid 1px;
+}
+
+.narrative {
+  border: solid 1px;
+}
+
+.text-content {
+  border: solid 1px;
+}
+
+.stories {
+  border: solid 1px;
+}
+
+.story {
+  border: solid 1px;
+}
+
+.fall-cancelled {
+  border: solid 1px;
+}
+
+.cat-ceo {
+  border: solid 1px;
+}
+
+.cookie {
+  border: solid 1px;
+}
+
+.news-bites {
+  border: solid 1px;
 }
