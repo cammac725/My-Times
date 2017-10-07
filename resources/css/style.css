@@ -5,6 +5,17 @@ header {
   font-weight: bold;
 }
 
+ footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background-color: MediumAquamarine;
+   margin: auto;
+   font-family: Verdana, sans-serif;
+   font-size: 12px;
+ }
+
 nav {
   display: flex;
   text-decoration: underline;
@@ -110,4 +121,11 @@ nav span {
   font-family: Verdana, sans-serif;
   font-size: 12px;
   color: DimGray;
+}
+
+.title {
+  font-size: 16px;
+  font-family: Georgia, sans-serif;
+  font-weight: bold;
+  color: white;
 }
